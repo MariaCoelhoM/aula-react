@@ -7,6 +7,9 @@ import Footer from './Componentes/Footer.jsx'
 import Botao from './Componentes/Botao.jsx'
 import Lista from './Componentes/Lista.jsx'
 import ListaObjetos from './Componentes/ListaObejtos.jsx'
+import Botaouser from './Componentes/Botaouser.jsx'
+import Conteudo from './Componentes/Conteudo.jsx'
+import Contador from './Componentes/Contador.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,12 +27,16 @@ function App() {
     <li>Item 3</li>
     <li>Item 4</li>
       </ul>
+
       <ul>
     <li>"gato"</li>
     <li>"foca"</li>
     <li>"coelho"</li>
     <li>"leão"</li>
       </ul>
+      <Botaouser></Botaouser>   {/*chama a função que muda de cor o fundo da tela*/}
+      <Conteudo></Conteudo>
+      <Contador></Contador>
       <Footer textDisplay= "Ano atual:"/>
 
     </>
