@@ -6,6 +6,7 @@ function Lista() {
     return (
         <ul>
             {itens.map((item, index) => (
+                //itens.map(...) percorre cada item do array itens.
                 <li key={index}>{item}</li> // Cada item do array vira um <li>
             ))}
         </ul>
@@ -13,3 +14,7 @@ function Lista() {
 }
 
 export default Lista;
+
+/*- Crie uma lista não ordenada de um array simples
+utilizando o .map()
+*/

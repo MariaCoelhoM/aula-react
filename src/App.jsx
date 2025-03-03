@@ -10,7 +10,9 @@ import ListaObjetos from './Componentes/ListaObejtos.jsx'
 import Botaouser from './Componentes/Botaouser.jsx'
 import Conteudo from './Componentes/Conteudo.jsx'
 import Contador from './Componentes/Contador.jsx'
-
+import PerguntaAleatoria from './Componentes/PerguntaAleatoria.jsx'
+import Calculadora from './Componentes/Calculadora.jsx'
+import CadastrarAluno from './Componentes/CadastrarAluno.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -37,6 +39,9 @@ function App() {
       <Botaouser></Botaouser>   {/*chama a função que muda de cor o fundo da tela*/}
       <Conteudo></Conteudo>
       <Contador></Contador>
+      <PerguntaAleatoria></PerguntaAleatoria>
+      <Calculadora></Calculadora>
+      <CadastrarAluno></CadastrarAluno>
       <Footer textDisplay= "Ano atual:"/>
 
     </>
