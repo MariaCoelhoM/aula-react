@@ -6,6 +6,7 @@ const Calculadora = () => {
   const [resultado, setResultado] = useState(null);
     /*e.target.value captura o valor digitado no input.*/ 
     /*e (abreviação de event) é o objeto do evento gerado pelo input.*/ 
+    /*Number(e.target.value) converte essa string para um número.*/
   const novoNumero1 = (e) => setNum1(Number(e.target.value));
   const novoNumero2 = (e) => setNum2(Number(e.target.value));
 
