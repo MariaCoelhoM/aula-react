@@ -13,3 +13,5 @@ function ListaObjetos() {
 }
 
 export default ListaObjetos;
+/*– Crie uma lista não ordenada de um array de objetos, e mostre pelo menos duas propriedades
+dele na tela*/
