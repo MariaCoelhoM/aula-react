@@ -49,7 +49,10 @@ nome, idade, cidade e curso: armazenam os dados do aluno antes de serem adiciona
     </div>
   );
 };
-
+/*type="text" → Define o tipo do input como texto.
+placeholder="Nome" → Mostra um texto cinza indicando que o usuário deve digitar o nome.
+value={nome} → O valor do input está vinculado ao estado nome. Isso significa que ele sempre mostrará o valor atual do estado.
+onChange={(e) => setNome(e.target.value)} → Atualiza o estado nome sempre que o usuário digita algo no campo.*/
 export default CadastrarAluno;
 /* Desenvolva uma aplicação que permita cadastrar e exibir uma lista de alunos.
 Cada aluno será representado por um Card, contendo Nome, Idade, Cidade e Curso, além de um
