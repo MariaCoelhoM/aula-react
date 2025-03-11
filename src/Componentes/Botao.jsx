@@ -9,6 +9,7 @@ function Botao(props){
         </>
     )
 }
+/*props (propriedades) são valores passados de um componente pai para um componente filho.*/
 export default Botao
 /*Crie um componente que renderize três botões que recebam props para mudar seu
 texto e sua cor*/
