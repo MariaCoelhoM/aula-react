@@ -25,11 +25,15 @@ const Conteudo = () => {
       justifyContent: "center"
     }}>
       <button onClick={toggleContent}>
-        {showContent ? "Ocultar Conteúdo" : "Mostrar Conteúdo"}
+        {showContent ? "Ocultar Conteúdo" : "Mostrar Conteúdo"} 
       </button>
       <Content show={showContent} />
     </div>
   );
 };
-
+/*showContent é uma variável (provavelmente um estado no React).
+Se showContent for true, exibe "Ocultar Conteúdo".
+Se showContent for false, exibe "Mostrar Conteúdo".*/
 export default Conteudo;
+/*Crie um botão que controla a exibição de um conteúdo
+Dica: props e if*/
