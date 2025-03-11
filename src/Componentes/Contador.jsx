@@ -29,3 +29,5 @@ const Contador = () => {
 };
 
 export default Contador;
+/*Desenvolva um contador, que incremente e decremente e renderize seu valor atual na tela,
+mas impossibilite que o contador fique negativo.*/
