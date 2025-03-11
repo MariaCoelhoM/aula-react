@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 
-const Botaouser = () => {
-  const [darkMode, setDarkMode] = useState(false);
+const Botaouser = () => { /*Aqui, Botaouser é um componente funcional do React.
+Está sendo definido como uma arrow function (() => {}).*/
+  
+  const [darkMode, setDarkMode] = useState(false); /*useState(false) cria um estado chamado darkMode, que começa como false.
+setDarkMode é a função que atualiza esse estado.*/
 
   const toggleTheme = () => {
     setDarkMode(!darkMode);
   };
-
+  /*Essa função inverte o valor de darkMode sempre que for chamada.
+Se darkMode for false, muda para true, e vice-versa.
+*/
   return (
     <div style={{
       backgroundColor: darkMode ? "#333" : "#fff",
