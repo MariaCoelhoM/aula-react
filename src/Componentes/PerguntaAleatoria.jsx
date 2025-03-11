@@ -9,7 +9,9 @@ const PerguntaAleatoria = () => {
     const respostaAleatoria = respostas[Math.floor(Math.random() * respostas.length)];
     alert(respostaAleatoria);
   };
-
+/*Math.random() gera um número entre 0 e 1.
+Multiplicamos por respostas.length (número total de respostas).
+Math.floor() arredonda para um número inteiro entre 0 e respostas.length - 1.*/
   return (
     <div style={{
       height: "100vh",
