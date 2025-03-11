@@ -25,3 +25,7 @@ const PerguntaAleatoria = () => {
 };
 
 export default PerguntaAleatoria;
+/*Crie um componente que simula a famosa ‘Bola 8 Mágica’. Ao clicar em um botão “Pergunte
+à Bola 8”, uma função é acionada e escolhe aleatoriamente uma resposta de um conjunto pré
+definido (“Sim”, “Não”, “Talvez”, “Depende”...) e exibe a resposta em um alert
+Dica: Utilizar Math.Random() para escolher aleatoriamente a resposta.*/
