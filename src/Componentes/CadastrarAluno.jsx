@@ -6,13 +6,16 @@ const CadastrarAluno = () => {
   const [idade, setIdade] = useState("");
   const [cidade, setCidade] = useState("");
   const [curso, setCurso] = useState("");
-
+/*alunos: guarda a lista de alunos cadastrados (começa como um array vazio []).
+nome, idade, cidade e curso: armazenam os dados do aluno antes de serem adicionados à lista.*/
   const adicionarAluno = () => {
-    if (nome && idade && cidade && curso) {
+    if (nome && idade && cidade && curso) { 
+//Verifica se todos os campos estão preenchidos (if (nome && idade && cidade && curso)).
+//Cria um objeto novoAluno com os dados inseridos.
       const novoAluno = { nome, idade, cidade, curso };
       /*setAlunos([...alunos, novoAluno]) 
       atualiza o estado alunos com o novo array.*/ 
-      setAlunos([...alunos, novoAluno]);
+      setAlunos([...alunos, novoAluno]); 
       setNome("");
       setIdade("");
       setCidade("");
