@@ -10,4 +10,5 @@ function Botao(props){
     )
 }
 export default Botao
-
+/*Crie um componente que renderize três botões que recebam props para mudar seu
+texto e sua cor*/
